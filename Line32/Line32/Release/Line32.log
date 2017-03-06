@@ -1,0 +1,35 @@
+﻿生成启动时间为 2016/12/5 17:40:56。
+     1>项目“C:\Users\test\documents\visual studio 2015\Projects\Line32\Line32\Line32.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt elfloader32.cpp funcs.cpp main.cpp symbol.cpp
+         elfloader32.cpp
+         funcs.cpp
+     1>funcs.cpp(6): warning C4101: “j”: 未引用的局部变量
+     1>funcs.cpp(6): warning C4101: “i”: 未引用的局部变量
+     1>funcs.cpp(6): warning C4101: “n”: 未引用的局部变量
+     1>funcs.cpp(26): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'int'
+         main.cpp
+     1>main.cpp(18): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+         symbol.cpp
+     1>symbol.cpp(20): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(90): note: 参见“strcat”的声明
+     1>symbol.cpp(61): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+     1>symbol.cpp(63): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\test\documents\visual studio 2015\Projects\Line32\Release\Line32.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\test\documents\visual studio 2015\Projects\Line32\Release\Line32.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\test\documents\visual studio 2015\Projects\Line32\Release\Line32.lib" /MACHINE:X86 /SAFESEH Release\elfloader32.obj
+         Release\funcs.obj
+         Release\main.obj
+         Release\symbol.obj
+         正在生成代码
+     1>c:\users\test\documents\visual studio 2015\projects\line32\line32\elfloader32.cpp(116): warning C4731: “dl_resolv32”: 框架指针寄存器“ebp”被内联程序集代码修改
+         All 15 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         已完成代码的生成
+         Line32.vcxproj -> C:\Users\test\documents\visual studio 2015\Projects\Line32\Release\Line32.exe
+     1>已完成生成项目“C:\Users\test\documents\visual studio 2015\Projects\Line32\Line32\Line32.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:01.90
